@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for Product ID input -->
+    <TextView
+        android:id="@+id/productIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Product ID"
+        android:textSize="16sp" />
+
+    <!-- Product ID Input Field -->
+    <EditText
+        android:id="@+id/productIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product ID" />
+
+    <!-- Title for Return Reason input -->
+    <TextView
+        android:id="@+id/returnReasonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Reason"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Return Reason Input Field -->
+    <EditText
+        android:id="@+id/returnReasonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reason for return" />
+
+    <!-- Confirm Return Button -->
+    <Button
+        android:id="@+id/confirmReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Return"
+        android:layout_marginTop="16dp" />
+
+    <!-- Status Message Display -->
+    <TextView
+        android:id="@+id/statusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="14sp" />
+</LinearLayout>
